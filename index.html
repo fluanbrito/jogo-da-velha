@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Jogo da Velha</h1>
+    </header>
+    <main class="main">
+        <form class="form" action="#" method="post">
+            <div class="form__group">
+                <label for="player1" class="form__label">Jogador 1:ㅤ</label>
+                <input type="text" id="player1" name="player1" class="form__input">
+            </div>
+            <div class="form__group">
+                <label for="player2" class="form__label">Jogador 2:ㅤ</label>
+                <input type="text" id="player2" name="player2" class="form__input">
+            </div>
+            <button type="submit" class="form__button">Iniciar Jogo</button>
+        </form>
+        <div class="game">
+            <div class="game__board">
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+                <div class="game__cell"></div>
+            </div>
+            <div class="game__result"></div>
+            <div class="game__score">
+                <span class="game__score-player1">0</span> : <span class="game__score-player2">0</span>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">&copy; 2023 - Jogo da Velha | Luan Ferreira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
